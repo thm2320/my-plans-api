@@ -1,0 +1,23 @@
+{
+  "name": "my-plans-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build -- --watch",
+    "dev-start": "nodemon dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
