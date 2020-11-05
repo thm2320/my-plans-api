@@ -3,7 +3,7 @@ import express from 'express';
 import mongoose from "mongoose"
 import dotenv from "dotenv";
 
-import tasksRoutes from './routes/tasks';
+import tasksRoutes from './routes/tasksRoutes';
 
 dotenv.config();
 
