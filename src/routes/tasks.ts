@@ -1,10 +1,10 @@
 import { Router } from 'express';
+import * as taskController from './../controllers/taskController';
 
 const router = Router();
 
-router.get('/', (req, res, next) => {
-  res.status(200).json({  });
-});
+router.get('/',taskController.getTasks);
 
+router.post('/add-task',taskController.postAddTask);
 
 export default router;
